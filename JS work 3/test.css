@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+div {
+  border: 2px solid #7dacaf;
+  border-radius: 5px;
+  padding: 3px;
+  background: #adecf6;
+}
+
+button {
+  background: #adecf6;
+  border-radius: 15px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+main {
+  display: table;
+  margin: auto;
+}
+
+.mes-window {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mes {
+  width: fit-content;
+  background-color: #72d1df;
+  border: 0;
+}

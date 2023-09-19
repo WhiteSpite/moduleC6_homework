@@ -1,0 +1,39 @@
+span {
+    vertical-align: top;
+}
+
+button {
+    height: 20px;
+    box-sizing: content-box;
+}
+
+div {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+}
+
+.twin-icon img {
+    height: 100%;
+}
+
+.twin-icon img:first-of-type {
+    opacity: 1;
+    transition: 0.7s;
+    position: absolute;
+}
+
+.twin-icon img:last-of-type {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.twin-icon:hover img:first-of-type {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.twin-icon:hover img:last-of-type {
+    opacity: 1;
+    transition: 0.7s;
+}
