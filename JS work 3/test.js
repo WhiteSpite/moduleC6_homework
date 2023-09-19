@@ -25,7 +25,7 @@ function sendGeo() {
     const coords = position.coords.latitude + "/" + position.coords.longitude
     websocket.send(coords);
     websocket.onmessage = () => websocket.onmessage = (e) => displayMes(e.data, false);
-    displayMes(coords);
+    displayMes(coords, true, true);
   });
 }
 
